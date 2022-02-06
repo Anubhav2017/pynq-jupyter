@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Feb  3 16:21:01 2022" VIVADOVERSION="2020.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Feb  4 01:36:53 2022" VIVADOVERSION="2020.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -1643,7 +1643,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="2112360857" FULLNAME="/backward_fcc_0" HWVERSION="1.0" INSTANCE="backward_fcc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="backward_fcc" VLNV="xilinx.com:hls:backward_fcc:1.0">
+    <MODULE COREREVISION="2112361408" FULLNAME="/backward_fcc_0" HWVERSION="1.0" INSTANCE="backward_fcc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="backward_fcc" VLNV="xilinx.com:hls:backward_fcc:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="read-write" INTERFACE="s_axi_control" NAME="Reg" RANGE="65536" USAGE="register">
@@ -2017,7 +2017,7 @@
         <PARAMETER NAME="C_M_AXI_GMEM_CACHE_VALUE" VALUE="&quot;0011&quot;"/>
         <PARAMETER NAME="C_M_AXI_GMEM_ENABLE_ID_PORTS" VALUE="false"/>
         <PARAMETER NAME="C_M_AXI_GMEM_ENABLE_USER_PORTS" VALUE="false"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_backward_fcc_0_1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_backward_fcc_0_2"/>
         <PARAMETER NAME="clk_period" VALUE="10"/>
         <PARAMETER NAME="machine" VALUE="64"/>
         <PARAMETER NAME="combinational" VALUE="0"/>
@@ -2425,7 +2425,7 @@
         <PERIPHERAL INSTANCE="axi_bram_ctrl_0"/>
       </PERIPHERALS>
     </MODULE>
-    <MODULE COREREVISION="2112360856" FULLNAME="/forward_fcc_0" HWVERSION="1.0" INSTANCE="forward_fcc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="forward_fcc" VLNV="xilinx.com:hls:forward_fcc:1.0">
+    <MODULE COREREVISION="2112361413" FULLNAME="/forward_fcc_0" HWVERSION="1.0" INSTANCE="forward_fcc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="forward_fcc" VLNV="xilinx.com:hls:forward_fcc:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="read-write" INTERFACE="s_axi_CTRL" NAME="Reg" RANGE="65536" USAGE="register">
@@ -2759,7 +2759,7 @@
         <PARAMETER NAME="C_M_AXI_GMEM_CACHE_VALUE" VALUE="&quot;0011&quot;"/>
         <PARAMETER NAME="C_M_AXI_GMEM_ENABLE_ID_PORTS" VALUE="false"/>
         <PARAMETER NAME="C_M_AXI_GMEM_ENABLE_USER_PORTS" VALUE="false"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_forward_fcc_0_7"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_forward_fcc_0_8"/>
         <PARAMETER NAME="clk_period" VALUE="10"/>
         <PARAMETER NAME="machine" VALUE="64"/>
         <PARAMETER NAME="combinational" VALUE="0"/>
