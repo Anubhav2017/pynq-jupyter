@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Feb 22 20:58:15 2022" VIVADOVERSION="2020.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Feb 23 14:05:50 2022" VIVADOVERSION="2020.2">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -3679,7 +3679,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="2112383957" FULLNAME="/backward_fcc_0" HWVERSION="1.0" INSTANCE="backward_fcc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="backward_fcc" VLNV="xilinx.com:hls:backward_fcc:1.0">
+    <MODULE COREREVISION="2112389524" FULLNAME="/backward_fcc_0" HWVERSION="1.0" INSTANCE="backward_fcc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="backward_fcc" VLNV="xilinx.com:hls:backward_fcc:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="read-write" INTERFACE="s_axi_control" NAME="Reg" RANGE="65536" USAGE="register">
@@ -6360,9 +6360,9 @@
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="S04_ACLK"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M03_ACLK"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="S03_ACLK"/>
-            <CONNECTION INSTANCE="backward_fcc_0" PORT="ap_clk"/>
             <CONNECTION INSTANCE="activation_bckwd_0" PORT="ap_clk"/>
             <CONNECTION INSTANCE="activation_fwd_0" PORT="ap_clk"/>
+            <CONNECTION INSTANCE="backward_fcc_0" PORT="ap_clk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="FCLK_RESET0_N" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
@@ -8808,9 +8808,9 @@
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="S04_ARESETN"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M03_ARESETN"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="S03_ARESETN"/>
-            <CONNECTION INSTANCE="backward_fcc_0" PORT="ap_rst_n"/>
             <CONNECTION INSTANCE="activation_bckwd_0" PORT="ap_rst_n"/>
             <CONNECTION INSTANCE="activation_fwd_0" PORT="ap_rst_n"/>
+            <CONNECTION INSTANCE="backward_fcc_0" PORT="ap_rst_n"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
